@@ -1,0 +1,30 @@
+[5.1] SASS INTEGRATION
+
+PURPOSE OF 01 FILE: STARTING FILE
+  - This file picks up where we left off when we last worked with React.js in Week 3 (minor changes & NO mapping):
+    -> Installed modules: react-router-dom, react-icons, bootstrap 5.1.3 & react-bootstrap
+    -> App.js with react-router-dom routing setup, and routed Home page
+    -> Navbar & Footer 
+    -> Flexbox system built in at application/root level CSS
+  
+  - CleanUp & Additions
+    -> BrowserRouter moved to index.js to retain improved abstraction
+    -> Removed API pages (not required for static portfolio site)
+    -> Uninstalled axios (same as above)
+    -> Added lots of CSS to the NotFound page, to help with the upcoming SASS demonstration (updated the image, react-icon & return home link)
+
+  - NOTE: Currently, we import our application CSS file INTO index.js BELOW the bootstrap stylesheet, so our CSS rules overwrite! (Test with the "Bootstrap Default Overwrite Tester")
+
+
+PATH FROM HERE: 
+  (02) INTEGRATION WITH SASS 
+    - Integrate with CLI SASS Compiler with Vite (https://vitejs.dev/guide/features#css-pre-processors)
+
+  (03) INTEGRATION OF SASS with REACT-BOOTSTRAP 
+    - How to overwrite React-Bootstrap SASS with our own Custom SASS (https://youtu.be/wdwLJcK865Q)
+  
+  (04) SASS + REACT + BOOTSTRAP FILE ARCHITECTURE
+    - Linking SASS File Architecture with React & Bootstrap 
+    - Wider styling considerations
+
+  + CHALLENGE: Refine React project in SCSS & overwrite default Bootstrap SCSS variables!
